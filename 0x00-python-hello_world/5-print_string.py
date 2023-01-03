@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-str = "Holberton School"
+0;276;0cstr = "Holberton School"
 newstring = str * 3
-print(f"{newstring:s}\n{newstring[:10]:s}")
+print(f"{newstring:s}\n{newstring[:9]:s}")

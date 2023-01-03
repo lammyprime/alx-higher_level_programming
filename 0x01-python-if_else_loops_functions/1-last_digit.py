@@ -7,8 +7,8 @@ if number < 0:
 else:
     lastdigit = number % 10
 if lastdigit > 5:
-    print(str.format(number, lastdigit, ("and is greater than 5")))
+    print(str.format(number, lastdigit, ("greater than 5")))
 elif lastdigit == 0:
-    print(str.format(number, lastdigit, ("and is 0")))
+    print(str.format(number, lastdigit, ("0")))
 elif lastdigit < 6:
-    print(str.format(number, lastdigit, ("and is less than 6 and not 0")))
+    print(str.format(number, lastdigit, ("less than 6 and not 0")))

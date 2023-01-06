@@ -10,21 +10,16 @@ if __name__ == "__main__":
     b = int(argv[3])
     if operator == "+":
         result = add(a, b)
-        print('{} {} {} = {}'.format(a, operator, b, result))
-        
+        print('{} {} {} = {}'.format(a, operator, b, result))        
     elif operator == "-":
         result = sub(a, b)
         print('{} {} {} = {}'.format(a, operator, b, result))
-
     elif operator == "*":
         result = mul(a, b)
         print('{} {} {} = {}'.format(a, operator, b, result))
-
     elif operator == "/":
         result = div(a, b)
         print('{} {} {} = {}'.format(a, operator, b, result))
-
     else:
         print('Unknown operator. Available operators: +, -, * and /')
         exit(1)
-    

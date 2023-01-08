@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def no_c(my_string):
+     my_string = ['']
+     stri = ['c', 'C']
+     my_string.remove(stri)
+     return my_string

@@ -2,12 +2,10 @@ The ``7-base_geometry`` module
 ==============================
 
 Using ``BaseGeometry``
-----------------------
+First import ``BaseGeometry`` from the module ``7-base_geometry``
+	>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
 
-Importing class from the module:
-    >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
-
-
+and use it
 Trying to print the area
     >>> bg = BaseGeometry()
     >>> bg.area()

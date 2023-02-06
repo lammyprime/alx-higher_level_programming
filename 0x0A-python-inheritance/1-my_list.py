@@ -1,14 +1,16 @@
 #!/usr/bin/python3
+"""
+    This module contains a class MyList that inherits from the list class.
+    it has a method print_sorted() that prints out the list in sorted order
+"""
+
+
 class MyList(list):
-    """ Class that inherits the attributes references of class list
-
-    Args:
-        list: class list
-
-    """
+    """ A class inherited from te list class """
 
     def print_sorted(self):
-        """ Method that prints the sorted list """
-        l_sorted = self.copy()
-        l_sorted.sort()
-        print(l_sorted)
+        """ prints out the list in sorted order """
+
+        sorted_list = self.copy()
+        sorted_list.sort()
+        print(sorted_list)

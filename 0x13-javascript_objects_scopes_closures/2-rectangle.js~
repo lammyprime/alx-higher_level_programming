@@ -1,0 +1,14 @@
+#!/usr/bin/node
+module.exports = class Rectangle {
+  constructor(w, h) {
+    if (w <= 0 || h <= 0 || !Number.isInteger(w) || !Number.isInteger(h)) {
+      // Create an empty object with width and height set to null
+      this.width = null;
+      this.height = null;
+    } else {
+      // Initialize width and height with provided values
+      this.width = w;
+      this.height = h;
+    }
+  }
+}
